@@ -1,0 +1,17 @@
+.bar {
+    top: 72px;
+    left: 5px;
+    width: 400px;
+}
+
+.chartContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+.item {
+    order: 3;
+}

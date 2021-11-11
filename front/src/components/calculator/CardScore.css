@@ -1,0 +1,32 @@
+.scoreCard {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8em;
+    border-color: #343a40;
+}
+
+.scoreCard-body {
+    font-size: 200%;
+    color: white;
+    text-align: center;
+    vertical-align: text-top;
+    border-radius: 3px;
+}
+
+.rating {
+    color: #343a40;
+    font-size: 45%;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: -18px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.score {
+    font-size: 110%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+

@@ -1,0 +1,119 @@
+.baseWrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.tempWrapper {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.envWrapper {
+    position: relative;
+}
+
+/* Cards */
+
+.card {
+    max-width: 1200px;
+    border-color: #343a40;
+}
+
+.card-header {
+    font-size: 150%;
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #FBFBFB;
+}
+
+.vector-card-name {
+    width: 100%;
+    border-color: #343a40;
+    background-color: white;
+}
+
+.vector-card-header-name {
+    font-size: 100%;
+    text-align: center;
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #FBFBFB;
+}
+
+.vector-card-value {
+    margin-bottom: -1em;
+    width: 1100px;
+    border-color: #343a40;
+    background-color: white;
+}
+
+.vector-card-header-value {
+    font-size: 100%;
+    background-color: #64ae9a;
+    border-color: #343a40;
+    color: #FBFBFB;
+}
+
+/* Tables */
+
+.table-bordered > tbody > tr > th,
+.table-bordered {
+    border-bottom: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 15px;
+}
+
+.table {
+    border-collapse: separate;
+   /* border-spacing: 0px 0px;*/
+}
+
+
+/* Buttons n Badges */
+
+.btn-custom {
+    font-size: 80%;
+    margin-top: 10px;
+    color: #343a40;
+    background-color: #ffffff;
+    border-color: #343a40;
+}
+
+.btn-custom:hover{
+        color: white;
+        background-color: #343a40;
+        border-color: #343a40;
+}
+
+.btn-custom:focus{
+    color: white;
+    background-color: #64ae9a;
+    border-color: #343a40;
+    box-shadow: none;
+}
+
+.btn-custom:active {
+    color: white;
+    background-color: #343a40;
+    border-color: #343a40;
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #64ae9a;
+    border-color: #343a40;
+    box-shadow: none;
+}
+
+.badge-custom{
+    background-color: #343a40;
+    color: white;
+}
+
+.avoid-clicks {
+    pointer-events: none;
+}

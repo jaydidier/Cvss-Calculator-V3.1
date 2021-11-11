@@ -1,0 +1,51 @@
+.navbar-custom {
+    background: darkslategrey;
+    justify-content: center;
+
+}
+
+.nav-link-custom {
+    font-size: 15px;
+    padding: 10px;
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: transparent;
+}
+
+.nav-link-custom:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: transparent;
+}
+
+.nav-link-custom:active {
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    text-decoration: transparent;
+    font-weight: bold;
+}
+
+.nav-link-right-custom {
+    color: lightgrey;
+    background-color: transparent;
+    text-decoration: transparent;
+}
+
+.nav-link-right-custom:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: transparent;
+}
+
+.badge-version{
+    font-size: 13px;
+    background-color: aliceblue;
+    color: darkslategrey;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+}
+
